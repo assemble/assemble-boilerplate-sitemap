@@ -1,0 +1,58 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:codesearch="http://www.google.com/codesearch/schemas/sitemap/1.0">
+  <!--  Homepage -->
+  <url>
+    <loc>https://github.com/assemble/assemble/</loc>
+    <lastmod>2013-01-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!--  posts -->
+  
+  <url>
+    <loc>https://github.com/assemble/assemble/home.html</loc>
+     <lastmod>2013-01-24</lastmod> 
+    <changefreq>monthly</changefreq>
+     <priority>1</priority> 
+  </url>
+  
+  <url>
+    <loc>https://github.com/assemble/assemble/about.html</loc>
+     <lastmod>2013-01-24</lastmod> 
+    <changefreq>monthly</changefreq>
+     <priority>1</priority> 
+  </url>
+  
+  <url>
+    <loc>https://github.com/assemble/assemble/home.html</loc>
+     <lastmod>2013-01-24</lastmod> 
+    <changefreq>monthly</changefreq>
+     <priority>1</priority> 
+  </url>
+  
+  <!--  pages -->
+  
+  <url>
+    <loc>https://github.com/assemble/assemble/home.html</loc>
+     <lastmod>2013-01-24</lastmod> 
+    <changefreq>monthly</changefreq>
+     <priority>1</priority> 
+  </url>
+  
+  <url>
+    <loc>https://github.com/assemble/assemble/about.html</loc>
+     <lastmod>2013-01-24</lastmod> 
+    <changefreq>monthly</changefreq>
+     <priority>1</priority> 
+  </url>
+  
+  <url>
+    <loc>https://github.com/assemble/assemble/home.html</loc>
+     <lastmod>2013-01-24</lastmod> 
+    <changefreq>monthly</changefreq>
+     <priority>1</priority> 
+  </url>
+  
+</urlset>
+

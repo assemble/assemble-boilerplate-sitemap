@@ -4,9 +4,10 @@
 
 The example shows how to generate a **sitemap from a template**:
 
-* `sitemap.hbs`, our template: This is the Handlebars template for our sitemap, the only file we really "need". The other files are used for examples. 
-* `sitemap.json`, for mock data to populate the sitemap. An example is also provided for creating a sitemap using only the template and built-in variables. 
-* `config.yml`, optional example config data for the Assemble to task, like the paths to our sitemap files.
+* `sitemap.hbs` template: This is the Handlebars template for our sitemap, the only file we really "need". The other files are used for examples. 
+* `sitemap.json` example data to populate the sitemap. An example is also provided for creating a sitemap using only the template and built-in variables. 
+* `config.yml` (optional) configuration data for the Assemble task, such as paths to our sitemap files. If you've used Jekyll you will be familiar with this concept, although Assemble offers far more flexibility, so you can get rid of this file and put the data in the task, in YAML Front-Matter, or in a JSON file if you want.
+
 
 ## Getting Started
 
@@ -38,6 +39,9 @@ grunt.initConfig({
   }
 });
 ```
+
+### Config
+
 Inside `config.yml` you will notice that underscore templates are used as a convenience to pull metadata from the `package.json` file. This follows conventions from [task-manifest](), but it's only a preference. All of this can be moved into the Assemble options in the Gruntfile itself, but we decided to keep the external config file as an example in case your project has more configuration and metadata to maintain. Feel free to move this data into the task and get rid of the file.
 
 ``` yaml
@@ -58,7 +62,7 @@ Visit [Assemble's documentation][wiki] to learn about the available task and tar
 
 Here we're only going to cover the options used in this example project:
 
-#### `data`
+#### data
 Type: `Object|Array` (optional)
 Default: `src/data`
 
@@ -66,7 +70,7 @@ Retrieves data from any specified `JSON` and/or `YAML` files to populate the tem
 
 Learn more about [data][data]
 
-#### `ext`
+#### ext
 Type: `String` (optional)
 Default: `.html`
 

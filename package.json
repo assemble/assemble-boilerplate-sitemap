@@ -1,0 +1,51 @@
+{
+  "name": "assemble-examples-sitemap",
+  "description": "Use Assemble to generate a sitemap from templates.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/assemble-examples-sitemap",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/assemble/assemble-examples-sitemap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assemble/assemble-examples-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-examples-basic/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/assemble/assemble-examples-basic/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "assemble": "~0.3.73",
+    "assemble-less": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "assemble",
+    "component",
+    "grunt",
+    "json",
+    "markdown",
+    "site map",
+    "sitemap",
+    "generate",
+    "template",
+    "templates",
+    "handlebars",
+    "site generator",
+    "site builder",
+    "yaml"
+  ]
+}

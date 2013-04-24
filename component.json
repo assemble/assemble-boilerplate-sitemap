@@ -1,0 +1,15 @@
+{
+  "name": "sitemap",
+  "description": "Use Assemble to generate a sitemap from templates.",
+  "version": "0.1.0",
+  "main": ["src/sitemap.hbs", "config.yml"],
+  "ignore": {
+    "**/*.less"
+  },
+  "dependencies": {
+    "assemble": "~0.3.73",
+    "assemble-less": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  }
+}

@@ -12,8 +12,8 @@ See [other examples](http://github.com/assemble-assemble-examples).
 
 ## Getting Started
 
-* **[Download this project][download]** and unzip it into a new folder.  
-* In the project folder, run `npm install` to install [Assemble][assemble], [Grunt](http://gruntjs.com/) and any other dependencies.
+* **[Download this project](https://github.com/assemble/assemble-examples-sitemap/archive/master.zip)** and unzip it into a new folder.  
+* In the project folder, run `npm install` to install [Assemble](http://github.com/assemble/assemble), [Grunt](http://gruntjs.com/) and any other dependencies.
 * Once the dependencies are installed you may run `grunt assemble` to build the example project.
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile][gruntfile], as well as install and use Grunt plugins. 
@@ -146,4 +146,23 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 
 ## Release History
+* 2013-05-09    v0.1.1    Fix broken links. 
 * 2013-04-24    v0.1.0    First commit. 
+
+
+
+[download]: https://github.com/assemble/assemble-examples-basic/archive/master.zip
+[assemble]: https://github.com/assemble/assemble/
+[assemble-examples]: https://github.com/assemble/assemble-examples
+
+[wiki]: https://github.com/assemble/assemble/wiki
+[data]: https://github.com/assemble/assemble/wiki/data
+[layouts]: https://github.com/assemble/assemble/wiki/layouts
+[markdown]: https://github.com/assemble/assemble/wiki/markdown
+[options]: https://github.com/assemble/assemble/wiki/options
+[partials]: https://github.com/assemble/assemble/wiki/partials
+
+[gruntfile]: http://gruntjs.com/sample-gruntfile
+[configuring tasks]: http://gruntjs.com/configuring-tasks
+[files-object]: http://gruntjs.com/configuring-tasks#building-the-files-object-dynamically
+[tasks-and-targets]: http://gruntjs.com/configuring-tasks#task-configuration-and-targets

@@ -1,6 +1,6 @@
 # [assemble-examples-sitemap v0.1.0](http://github.com/assemble/assemble-examples-sitemap) [![Build Status](https://travis-ci.org/assemble/assemble-examples-sitemap.png)](https://travis-ci.org/assemble/assemble-examples-sitemap)
 
-> [Assemble][assemble] is a Grunt plugin that makes it dead simple to build modular sites and components from reusable **templates** and **data**.
+> [Assemble](http://github.com/assemble/assemble) is a Grunt plugin that makes it dead simple to build modular sites and components from reusable **templates** and **data**.
 
 The example shows how to generate a **sitemap from a template**:
 
@@ -8,6 +8,7 @@ The example shows how to generate a **sitemap from a template**:
 * `sitemap.json` example data to populate the sitemap. An example is also provided for creating a sitemap using only the template and built-in variables. 
 * `config.yml` (optional) configuration data for the Assemble task, such as paths to our sitemap files. If you've used Jekyll you will be familiar with this concept, although Assemble offers far more flexibility, so you can get rid of this file and put the data in the task, in YAML Front-Matter, or in a JSON file if you want.
 
+See [other examples](http://github.com/assemble-assemble-examples).
 
 ## Getting Started
 
@@ -33,7 +34,8 @@ grunt.initConfig({
     options: grunt.file.readYAML('config.yml'), 
     component: {
       files: {
-        'Sitemap.xml': ['src/sitemap.hbs']
+        // the template
+        'Sitemap.xml': ['src/sitemap.hbs'] 
       }
     }
   }
@@ -42,7 +44,7 @@ grunt.initConfig({
 
 ### Config
 
-Inside `config.yml` you will notice that underscore templates are used as a convenience to pull metadata from the `package.json` file. This follows conventions from [task-manifest](), but it's only a preference. All of this can be moved into the Assemble options in the Gruntfile itself, but we decided to keep the external config file as an example in case your project has more configuration and metadata to maintain. Feel free to move this data into the task and get rid of the file.
+Inside `config.yml` you will notice that underscore templates are used as a convenience to pull metadata from the `package.json` file. This follows conventions from [task-manifest](http://github.com/assemble/task-manifest/), but it's only a preference. All of this can be moved into the Assemble options in the Gruntfile itself, but we decided to keep the external config file as an example in case your project has more configuration and metadata to maintain. Feel free to move this data into the task and get rid of the file.
 
 ``` yaml
 # Metadata

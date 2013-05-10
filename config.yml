@@ -1,3 +1,9 @@
+# This example is intended to show how you can use
+# underscore templates to pull metadata from 
+# your package.json file, without having to hard-code
+# variables for your package.json file into the
+# templates.
+
 # Metadata
 component:
   name: <%= pkg.name %>

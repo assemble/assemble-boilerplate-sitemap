@@ -1,4 +1,4 @@
-# [boilerplate-sitemap v0.1.0](http://github.com/assemble/boilerplate-sitemap) [![Build Status](https://travis-ci.org/assemble/boilerplate-sitemap.png)](https://travis-ci.org/assemble/boilerplate-sitemap)
+# [boilerplate-sitemap v0.1.3](http://github.com/assemble/boilerplate-sitemap) [![Build Status](https://travis-ci.org/assemble/boilerplate-sitemap.png)](https://travis-ci.org/assemble/boilerplate-sitemap)
 
 > [Assemble](http://github.com/assemble/assemble) is a Grunt plugin that makes it dead simple to build modular sites and components from reusable **templates** and **data**.
 

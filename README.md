@@ -1,4 +1,4 @@
-# [assemble-examples-sitemap v0.1.0](http://github.com/assemble/assemble-examples-sitemap) [![Build Status](https://travis-ci.org/assemble/assemble-examples-sitemap.png)](https://travis-ci.org/assemble/assemble-examples-sitemap)
+# [boilerplate-sitemap v0.1.3](http://github.com/assemble/boilerplate-sitemap) [![Build Status](https://travis-ci.org/assemble/boilerplate-sitemap.png)](https://travis-ci.org/assemble/boilerplate-sitemap)
 
 > [Assemble](http://github.com/assemble/assemble) is a Grunt plugin that makes it dead simple to build modular sites and components from reusable **templates** and **data**.
 
@@ -8,11 +8,11 @@ The example shows how to generate a **sitemap from a template**:
 * `sitemap.json` example data to populate the sitemap. An example is also provided for creating a sitemap using only the template and built-in variables. 
 * `config.yml` (optional) configuration data for the Assemble task, such as paths to our sitemap files. If you've used Jekyll you will be familiar with this concept, although Assemble offers far more flexibility, so you can get rid of this file and put the data in the task, in YAML Front-Matter, or in a JSON file if you want.
 
-See [other examples](http://github.com/assemble-assemble-examples).
+See [other examples](http://github.com/assemble/boilerplate).
 
 ## Getting Started
 
-* **[Download this project](https://github.com/assemble/assemble-examples-sitemap/archive/master.zip)** and unzip it into a new folder.  
+* **[Download this project](https://github.com/assemble/boilerplate-sitemap/archive/master.zip)** and unzip it into a new folder.  
 * In the project folder, run `npm install` to install [Assemble](http://github.com/assemble/assemble), [Grunt](http://gruntjs.com/) and any other dependencies.
 * Once the dependencies are installed you may run `grunt assemble` to build the example project.
 
@@ -146,12 +146,13 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 
 ## Release History
+* 2013-08-14    v0.1.3    Rename to boilerplate. Update dependencies 
 * 2013-05-09    v0.1.1    Fix broken links. 
 * 2013-04-24    v0.1.0    First commit. 
 
 
 
-[download]: https://github.com/assemble/assemble-examples-basic/archive/master.zip
+[download]: https://github.com/assemble/boilerplate-site/archive/master.zip
 [assemble]: https://github.com/assemble/assemble/
 [assemble-examples]: https://github.com/assemble/assemble-examples
 

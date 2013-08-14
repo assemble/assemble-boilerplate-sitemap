@@ -1,6 +1,6 @@
 /*
  * Assemble
- * https://github.com/assemble/assemble-examples-sitemap
+ * https://github.com/assemble/boilerplate-sitemap
  *
  * Copyright (c) 2013 Upstage
  * Licensed under the MIT license.

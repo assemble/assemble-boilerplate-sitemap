@@ -1,18 +1,18 @@
 {
-  "name": "assemble-examples-sitemap",
+  "name": "boilerplate-sitemap",
   "description": "Use Assemble to generate a sitemap from templates.",
   "version": "0.1.0",
-  "homepage": "https://github.com/assemble/assemble-examples-sitemap",
+  "homepage": "https://github.com/assemble/boilerplate-sitemap",
   "author": {
     "name": "Jon Schlinkert",
-    "url": "https://github.com/assemble/assemble-examples-sitemap"
+    "url": "https://github.com/assemble/boilerplate-sitemap"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/assemble/assemble-examples-basic.git"
+    "url": "https://github.com/assemble/boilerplate-sitemap.git"
   },
   "bugs": {
-    "url": "https://github.com/assemble/assemble-examples-basic/issues"
+    "url": "https://github.com/assemble/boilerplate-sitemap/issues"
   },
   "engines": {
     "node": ">=0.8"
@@ -23,7 +23,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/assemble/assemble-examples-basic/blob/master/LICENSE-MIT"
+      "url": "https://github.com/assemble/boilerplate-sitemap/blob/master/LICENSE-MIT"
     }
   ],
   "dependencies": {

@@ -146,6 +146,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 
 ## Release History
+* 2013-08-14    v0.1.3    Rename to boilerplate. Update dependencies 
 * 2013-05-09    v0.1.1    Fix broken links. 
 * 2013-04-24    v0.1.0    First commit. 
 

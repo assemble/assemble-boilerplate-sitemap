@@ -47,5 +47,8 @@
     "site generator",
     "site builder",
     "yaml"
-  ]
+  ],
+  "devDependencies": {
+    "grunt-verb": "~0.2.4"
+  }
 }
